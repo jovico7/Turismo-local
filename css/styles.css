@@ -1,0 +1,270 @@
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #D8D8D8;
+}
+
+.titulo-25 {
+    font-size: 1.3rem;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.titulo-50 {
+    font-size: 1.3rem;
+    margin-left: 45%;
+}
+
+.header {
+    background-image: url(../img/headerfinal.jpg);
+    background-size: cover;
+    background-position-y: -45vh;
+    background-position-x: -35vh;
+    margin-top: 0%;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-attachment: fixed;
+}
+
+.titulo {
+    text-align: center;
+    height: 15vh;
+    font-size: 75px;
+    color: #FFF;
+    font-family: 'Abril Fatface', cursive;
+}
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+
+/* Quitar lineado de los links */
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Clases predefinidas */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-15 {
+    position: fixed;
+    width: 15%;
+    float: left;
+    font-size: medium;
+    margin-top: -4.5%;
+}
+
+.column-25 {
+    width: 25%;
+    float: right;
+    font-size: medium;
+    margin-top: -4.5%;
+}
+
+.column-60 {
+    width: 60%;
+    float: left;
+    margin-left: 15%;
+    margin-top: -3%;
+    background-color: white;
+    /*Scroll*/
+    overflow-y: scroll;
+    height: 78vh;
+    scroll-behavior: smooth;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+    height: 60vh;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+
+/* Cositas */
+
+.padding-s {
+    padding: 2%;
+}
+
+#palaumusica {
+    background-image: url(../img/palau-de-la-musica-catalana-facana-1.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#arcotriunfo {
+    background-image: url(../img/imagen_cultura_arcos-de-triunfo-de-españa_arco-de-barcelona\ \(1\).jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#sagradafamilia {
+    background-image: url(../img/sagradafamilia.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#passeiggracia {
+    background-image: url(../img/2015\,05\,passeig_de_gracia.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#plazacat {
+    background-image: url(../img/plazacat.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#plazaespanya {
+    background-image: url(../img/Plaça_Espanya.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#oreneta {
+    background-image: url(../img/oreneta.JPG);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#ciudadela {
+    background-image: url(../img/ciutadella-park.jpeg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#pedralbes {
+    background-image: url(../img/pedralbes.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#gv2 {
+    background-image: url(../img/gv2.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#arenas {
+    background-image: url(../img/arenas.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#maremagnum {
+    background-image: url(../img/maremagnum.jpeg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    border-radius: 10px;
+    color: #999999;
+    border: 2px solid;
+    margin: 5%;
+}
+
+.ubicacion {
+    height: 50vh;
+    width: 50vh;
+}
+
+.botones {
+    border: 4px outset #968AE3;
+    text-align: center;
+}
+
+
+/* sombras de botones */
+
+.botones:hover {
+    text-shadow: 0 0 10px #968AE3;
+    color: grey;
+    border: 6px outset #968AE3;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 1000px) {
+    .column-60 {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .ubicacion {
+        height: 85%;
+        width: 100%;
+    }
+    .column-15 {
+        width: 100%;
+        position: relative;
+    }
+    .column-25 {
+        width: 100%;
+    }
+    .header {
+        align-items: flex-start;
+        align-content: flex-start;
+        background-attachment: fixed;
+        height: 20%;
+    }
+}
