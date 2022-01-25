@@ -96,7 +96,7 @@ body {
     background-color: white;
     /*Scroll*/
     overflow-y: scroll;
-    height: 78vh;
+    height: 84vh;
     scroll-behavior: smooth;
 }
 
@@ -240,6 +240,13 @@ footer {
     text-shadow: 0 0 10px #968AE3;
     color: grey;
     border: 6px outset #968AE3;
+}
+
+
+/* quitar barra scroll */
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 
